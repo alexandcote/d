@@ -5,7 +5,7 @@
 ## Installation
 
 ```bash
-eval "$(curl -sSL https://bit.ly/2Kzj4Xd)"
+eval "$(curl -sSL https://bit.ly/4cb0RcF)"
 ```
 
 Add this in your `.bashrc` or `.zshrc` file.
