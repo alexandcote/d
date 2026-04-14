@@ -43,6 +43,9 @@ jobs:
           - os: macos-latest
             artifact_name: d
             asset_name: d-macos-amd64
+          - os: macos-14             # ← Apple Silicon runner
+            artifact_name: d
+            asset_name: d-macos-arm64
 
     steps:
     - uses: actions/checkout@v2
