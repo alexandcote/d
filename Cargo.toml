@@ -1,6 +1,6 @@
 [package]
 name = "d"
-version = "0.0.1"
+version = "0.0.3"
 authors = ["Alexandre Côté <a.cote@2kloc.com>"]
 edition = "2021"
 
