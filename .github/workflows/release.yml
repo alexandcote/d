@@ -15,7 +15,7 @@ jobs:
           - os: ubuntu-latest
             artifact_name: d
             asset_name: d-linux-amd64
-          - os: macos-13
+          - os: macos-15-intel
             artifact_name: d
             asset_name: d-macos-amd64
           - os: macos-latest
