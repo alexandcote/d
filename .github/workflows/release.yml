@@ -15,10 +15,10 @@ jobs:
           - os: ubuntu-latest
             artifact_name: d
             asset_name: d-linux-amd64
-          - os: macos-latest
+          - os: macos-13
             artifact_name: d
             asset_name: d-macos-amd64
-          - os: macos-14
+          - os: macos-latest
             artifact_name: d
             asset_name: d-macos-arm64
 

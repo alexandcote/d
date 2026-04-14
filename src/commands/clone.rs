@@ -17,9 +17,9 @@ pub fn clone(repository: String) {
 
 fn get_target(repository: &str) -> Result<String, &str> {
     let base_path = get_base_path().unwrap();
-    let re = Regex::new(r"[/@]([A-z]+.*)").unwrap();
-    let path = re.captures(&repository).unwrap();
-    let repository_path = path[1].replace(".git", "").replace(":", "/");
+    let re = Regex::new(r"[/@]([A-Za-z]+.*)").unwrap();
+    let path = re.captures(repository).unwrap();
+    let repository_path = path[1].replace(".git", "").replace(':', "/");
     if path.len() > 1 {
         let value = format!("{}/{}", base_path.display(), repository_path);
         return Ok(value);
